@@ -4,6 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "source": "src/index.html",
+  "browserslist": "> 2%",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "parcel": "^2.7.0"
   }

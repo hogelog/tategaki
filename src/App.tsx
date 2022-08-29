@@ -13,7 +13,11 @@ export function App() {
   return (
     <div className='app'>
       <div className='control-menu'>
-        <textarea className='w-full rounded border-2 m-2' onChange={(event) => setText(event.target.value)}>{text}</textarea>
+        <textarea className='w-full rounded border-2 m-2' onChange={(event) => {
+          let value = event.target.value
+          document.title = value.split('\n')[0]
+          setText(value)
+        }}>{text}</textarea>
       </div>
       <div className='papers'>
         { pages.map((page, index: number) => {

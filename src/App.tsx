@@ -61,7 +61,8 @@ export function App() {
           document.title = value.split('\n')[0]
           setText(value)
         }}>{text}</textarea>
-        <p>Confirmed only Google Chrome 104 on macOS 12.5.1.</p>
+        <p className='m-1'>Confirmed only Google Chrome 104 on macOS 12.5.1.</p>
+        <p className='m-1'><a href="https://github.com/hogelog/tategaki">Source: https://github.com/hogelog/tategaki</a></p>
       </div>
       <div className='papers'>
         { pages.map((page, index: number) => {

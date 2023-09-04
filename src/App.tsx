@@ -59,11 +59,11 @@ export function App() {
   return (
     <div className='app'>
       <div className='control-menu'>
-        <textarea onChange={(event) => {
+        <textarea defaultValue={ DEFAULT_TEXT } onChange={(event) => {
           let value = event.target.value
           document.title = value.split('\n')[0]
           setText(value)
-        }}>{text}</textarea>
+        }} />
         <p className='m-1'>Confirmed only Google Chrome 104 on macOS 12.5.1.</p>
         <p className='m-1'><a href="https://github.com/hogelog/tategaki">Source: https://github.com/hogelog/tategaki</a></p>
       </div>

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import * as lodash from 'lodash';
-import process from 'process';
 
 const CHARS = 20;
 const LINES = 20;

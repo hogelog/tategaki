@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as _ from 'lodash';
+import * as lodash from 'lodash';
 import process from 'process';
 
 const CHARS = 20;
@@ -48,7 +48,7 @@ function kumihan(text: string) {
       }
     }
   }
-  return _.chunk(lines, LINES)
+  return lodash.chunk(lines, LINES)
 }
 
 export function App() {
@@ -59,7 +59,7 @@ export function App() {
   return (
     <div className='app'>
       <div className='control-menu'>
-        <textarea className='w-full rounded border-2 m-2' onChange={(event) => {
+        <textarea onChange={(event) => {
           let value = event.target.value
           document.title = value.split('\n')[0]
           setText(value)
@@ -69,7 +69,7 @@ export function App() {
       </div>
       <div className='papers'>
         { pages.map((page, index: number) => {
-          return <div key={index} className='w-full m-4 paper'>
+          return <div key={index} className='paper'>
             <div className='text'>
               { page.map((line, index: number) => {
                 return <div key={index} className='line'>

@@ -1,8 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'npm:destyle.css/destyle.css'; 
 
-.app {
+p {
   width: 100%;
   height: 220mm;
 }
@@ -14,6 +12,10 @@
 .control-menu textarea {
   font-size: 10pt;
   height: 100%;
+  width: 100%;
+  border-width: 2px;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
 }
 .papers {
   margin: 0 auto;

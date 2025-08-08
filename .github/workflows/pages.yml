@@ -24,8 +24,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: yarn install
-      - run: yarn run parcel build --public-url /tategaki
+      - run: npm install -g pnpm
+      - run: pnpm install
+      - run: pnpm run build --public-url /tategaki
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:

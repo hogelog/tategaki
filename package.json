@@ -14,7 +14,8 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "^5.2.2",
-    "vite": "^7.1.1"
+    "vite": "^7.1.1",
+    "vite-plugin-singlefile": "^2.3.0"
   },
   "resolutions": {
     "htmlnano": "2.0.3"

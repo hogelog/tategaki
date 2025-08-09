@@ -26,8 +26,6 @@ p {
 .paper {
   position: relative;
 
-  writing-mode: vertical-rl;
-
   text-orientation: upright;
 
   font-family: '游明朝体', monospace;
@@ -45,6 +43,7 @@ p {
   width: 278mm;
   height: 191mm;
   border: 2mm double #fca;
+  writing-mode: vertical-rl;
 }
 .paper .text {
   z-index: 2;
@@ -55,6 +54,7 @@ p {
   width: 270mm;
   height: 200mm;
   color: #3e3e3e;
+  writing-mode: vertical-rl;
 }
 .paper .line {
   margin: 0 4pt;

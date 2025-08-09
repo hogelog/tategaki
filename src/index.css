@@ -21,7 +21,7 @@ p {
   margin: 0 auto;
   width: 297mm;
   overflow-y: scroll;
-  height: 220mm;
+  height: 209mm;
 }
 .paper {
   position: relative;
@@ -60,7 +60,8 @@ p {
   margin: 0 4pt;
   width: 12.2mm;
 }
-.paper span { padding: 1pt;
+.paper span {
+  padding: 1pt;
   width: 12.2mm;
   height: 12.2mm;
   margin: 0 auto;

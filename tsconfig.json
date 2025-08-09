@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "isolatedModules": true
+    "isolatedModules": true,
+    "moduleResolution": "bundler"
   }
 }

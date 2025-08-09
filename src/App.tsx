@@ -1,5 +1,4 @@
 import * as React from 'react';
-import * as lodash from 'lodash';
 
 const CHARS = 20;
 const LINES = 20;
@@ -47,7 +46,11 @@ function kumihan(text: string) {
       }
     }
   }
-  return lodash.chunk(lines, LINES)
+  const chunks = []
+  for (let i = 0; i < lines.length; i += LINES) {
+    chunks.push(lines.slice(i, i + LINES))
+  }
+  return chunks
 }
 
 export function App() {

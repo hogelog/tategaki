@@ -22,8 +22,8 @@ importers:
         version: 19.1.1(react@19.1.1)
     devDependencies:
       '@types/node':
-        specifier: ^24.2.1
-        version: 24.2.1
+        specifier: ^25.0.10
+        version: 25.0.10
       '@types/react':
         specifier: ^19.1.10
         version: 19.1.10
@@ -32,16 +32,16 @@ importers:
         version: 18.3.7(@types/react@19.1.10)
       '@vitejs/plugin-react':
         specifier: ^5.0.0
-        version: 5.0.0(vite@7.1.1(@types/node@24.2.1)(lightningcss@1.30.1))
+        version: 5.0.0(vite@7.1.1(@types/node@25.0.10)(lightningcss@1.30.1))
       typescript:
         specifier: ^5.2.2
         version: 5.9.2
       vite:
         specifier: ^7.1.1
-        version: 7.1.1(@types/node@24.2.1)(lightningcss@1.30.1)
+        version: 7.1.1(@types/node@25.0.10)(lightningcss@1.30.1)
       vite-plugin-singlefile:
         specifier: ^2.3.0
-        version: 2.3.0(rollup@4.46.2)(vite@7.1.1(@types/node@24.2.1)(lightningcss@1.30.1))
+        version: 2.3.0(rollup@4.46.2)(vite@7.1.1(@types/node@25.0.10)(lightningcss@1.30.1))
 
 packages:
 
@@ -419,8 +419,8 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@types/node@24.2.1':
-    resolution: {integrity: sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==}
+  '@types/node@25.0.10':
+    resolution: {integrity: sha512-zWW5KPngR/yvakJgGOmZ5vTBemDoSqF3AcV/LrO5u5wTWyEAVVh+IT39G4gtyAkh3CtTZs8aX/yRM82OfzHJRg==}
 
   '@types/react-dom@18.3.7':
     resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
@@ -466,8 +466,8 @@ packages:
   destyle.css@4.0.1:
     resolution: {integrity: sha512-G9iyW0JfRkgdxhbWQeuLdO1KZ40nzKssHtArbSFvaU/w44G0cZ5v3u4bHY829INSu480J/fxae+lTm225mN3Vw==}
 
-  detect-libc@2.0.4:
-    resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
+  detect-libc@2.1.2:
+    resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
   electron-to-chromium@1.5.199:
@@ -659,8 +659,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@7.10.0:
-    resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
   update-browserslist-db@1.1.3:
     resolution: {integrity: sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw==}
@@ -1014,9 +1014,9 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@types/node@24.2.1':
+  '@types/node@25.0.10':
     dependencies:
-      undici-types: 7.10.0
+      undici-types: 7.16.0
 
   '@types/react-dom@18.3.7(@types/react@19.1.10)':
     dependencies:
@@ -1026,7 +1026,7 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@vitejs/plugin-react@5.0.0(vite@7.1.1(@types/node@24.2.1)(lightningcss@1.30.1))':
+  '@vitejs/plugin-react@5.0.0(vite@7.1.1(@types/node@25.0.10)(lightningcss@1.30.1))':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.0)
@@ -1034,7 +1034,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.30
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 7.1.1(@types/node@24.2.1)(lightningcss@1.30.1)
+      vite: 7.1.1(@types/node@25.0.10)(lightningcss@1.30.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -1061,7 +1061,7 @@ snapshots:
 
   destyle.css@4.0.1: {}
 
-  detect-libc@2.0.4:
+  detect-libc@2.1.2:
     optional: true
 
   electron-to-chromium@1.5.199: {}
@@ -1150,7 +1150,7 @@ snapshots:
 
   lightningcss@1.30.1:
     dependencies:
-      detect-libc: 2.0.4
+      detect-libc: 2.1.2
     optionalDependencies:
       lightningcss-darwin-arm64: 1.30.1
       lightningcss-darwin-x64: 1.30.1
@@ -1243,7 +1243,7 @@ snapshots:
 
   typescript@5.9.2: {}
 
-  undici-types@7.10.0: {}
+  undici-types@7.16.0: {}
 
   update-browserslist-db@1.1.3(browserslist@4.25.1):
     dependencies:
@@ -1251,13 +1251,13 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  vite-plugin-singlefile@2.3.0(rollup@4.46.2)(vite@7.1.1(@types/node@24.2.1)(lightningcss@1.30.1)):
+  vite-plugin-singlefile@2.3.0(rollup@4.46.2)(vite@7.1.1(@types/node@25.0.10)(lightningcss@1.30.1)):
     dependencies:
       micromatch: 4.0.8
       rollup: 4.46.2
-      vite: 7.1.1(@types/node@24.2.1)(lightningcss@1.30.1)
+      vite: 7.1.1(@types/node@25.0.10)(lightningcss@1.30.1)
 
-  vite@7.1.1(@types/node@24.2.1)(lightningcss@1.30.1):
+  vite@7.1.1(@types/node@25.0.10)(lightningcss@1.30.1):
     dependencies:
       esbuild: 0.25.8
       fdir: 6.4.6(picomatch@4.0.3)
@@ -1266,7 +1266,7 @@ snapshots:
       rollup: 4.46.2
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.2.1
+      '@types/node': 25.0.10
       fsevents: 2.3.3
       lightningcss: 1.30.1
 
